@@ -6,19 +6,19 @@ public class Wordcounter {
     public static void main(String[] args)
         {
             System.out.println("Enter the text:");
-            Scanner s = new Scanner(System.in);
+            Scanner scan = new Scanner(System.in);
 
             //Reading input from the user...
 
-            String str = s.nextLine();
+            String strin = scan.nextLine();
 
             //Splitting the string by " " and storing it in string array...
 
-            String[] arr = str.split(" ");
+            String[] arr = strin.split(" ");
 
             //Eliminating whitespaces in between by using replace() method...
 
-            String str1 = str.replace(" ","");
+            String str1 = strin.replace(" ","");
 
             //Evaluating computed string length to find the frequency of characters as we removed whitespaces...
 
